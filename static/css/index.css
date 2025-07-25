@@ -1,0 +1,682 @@
+page{
+    background-color: #F1F1F1;
+}
+.content{
+    width: 750rpx;
+    max-width: 500px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+/*template one start*/
+.pay-template-one{
+    width: 750rpx;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+	margin-bottom: 150rpx;
+}
+.pay-template-one .banner{
+    width: 750rpx;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+}
+.pay-template-one .items{
+    width: 750rpx;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 30rpx;
+    box-sizing: border-box;
+    margin-bottom: 30rpx;
+}
+.pay-template-one .items .title{
+    width: 100%;
+    height: 35rpx;
+    line-height: 35rpx;
+    display: flex;
+    border-left: 10rpx solid #0F80FF;
+    padding: 0 0 0 10px;
+    margin: 30rpx 0;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+.pay-template-one .items .title .small{
+    font-size: 30rpx;
+    color: #999999;
+}
+.pay-template-one .items .title .number{
+    font-size: 35rpx;
+    color: #FD6666;
+}
+.pay-template-one .items .text-content{
+    width: 100%;
+    line-height: 50rpx;
+    display: flex;
+    flex-direction: column;
+    color: #666666;
+    font-size: 32rpx;
+}
+.pay-template-one .items .text-content text{
+    color: #0F80FF;
+    font-weight: 500;
+    margin-left: 10rpx;
+}
+.pay-template-one .users-lists{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #666666;
+    font-size: 30rpx;
+}
+.pay-template-one .users-lists .users-lists-items{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: #666666;
+    font-size: 30rpx;
+    margin-bottom: 15rpx;
+}
+.pay-template-one .users-lists .users-lists-items image{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    margin-bottom: 10rpx;
+}
+.pay-template-one .users-lists .users-lists-items text{
+    width: 120rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    overflow: hidden;
+    text-align: center;
+}
+/*template one end*/
+
+/*template two start*/
+.pay-template-two{
+    width: 750rpx;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.pay-template-two .header{
+    width: 750rpx;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 150rpx 30rpx 50rpx 30rpx;
+    box-sizing: border-box;
+}
+.pay-template-two .header image{
+    width: 140rpx;
+    height: 140rpx;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 30rpx;
+}
+.pay-template-two .header .title{
+    width: 100%;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 37rpx;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+}
+.pay-template-two .header .describe{
+    width: 100%;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 32rpx;
+    color: #999999;
+    text-align: center;
+}
+.pay-template-two .join-title{
+    width: 750rpx;
+    max-width: 500px;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 37rpx;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    margin: 50rpx 0;
+}
+.pay-template-two .pay-button{
+    width: 500rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    background-color: #3eb477;
+    border-radius: 10rpx;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 35rpx;
+    -webkit-appearance: none;
+    border: none;
+}
+.pay-template-two .text-items{
+    width: 750rpx;
+    max-width: 500px;
+    padding: 30rpx;
+    display: flex;
+    flex-direction: column;
+    color: #999999;
+    font-size: 32rpx;
+    line-height: 50rpx;
+    margin-top: 30rpx;
+    box-sizing: border-box;
+}
+.pay-template-two .text-items text{
+    width: 100%;
+    margin-bottom: 15rpx;
+}
+.pay-template-images{
+    width: 750rpx;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.pay-template-images .good-base-info{
+    width: 750rpx;
+    max-width: 500px;
+    margin-bottom: 30rpx;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 30rpx;
+    box-sizing: border-box;
+}
+.pay-template-images .good-base-info .name{
+    width: 100%;
+    color: #333333;
+    font-weight: 500;
+    font-size: 35rpx;
+    line-height: 50rpx;
+    margin-bottom: 15rpx;
+}
+.pay-template-images .good-base-info .price{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #999999;
+    height: 50rpx;
+    line-height: 50rpx;
+}
+.pay-template-images .good-base-info .price s{
+    font-size: 30rpx;
+}
+.pay-template-images .good-base-info .price text.number{
+    color: #FD6666;
+    font-weight: 600;
+    font-size: 45rpx;
+    margin: 0 10rpx;
+}
+.pay-template-images .good-base-info .describe{
+    font-size: 31rpx;
+    color: #999999;
+    margin: 15rpx 0;
+}
+.pay-template-images .header{
+    width: 750rpx;
+    max-width: 500px;
+    height: auto;
+    line-height: 50rpx;
+    padding: 40rpx 30rpx;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.pay-template-images .header text{
+    width: 100%;
+    height: 35rpx;
+    line-height: 35rpx;
+    font-size: 35rpx;
+    font-weight: 500;
+    border-left: 10rpx solid #3eb477;
+    padding-left: 15rpx;
+}
+.pay-template-images image{
+    width: 750rpx;
+    max-width: 500px;
+}
+/*template two end*/
+
+.payment-button{
+    width: 750rpx;
+    max-width: 500px;
+    position: fixed;
+    bottom: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    height: 120rpx;
+    box-shadow: 0 0 30rpx #B3B3B3;
+    justify-content: space-between;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+.payment-button .payment-button-left{
+    width: 500rpx;
+    padding: 0 30rpx;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 120rpx;
+    line-height: 120rpx;
+}
+.payment-button .payment-button-left text{
+    margin-right: 5rpx;
+    color: #666666;
+}
+.payment-button .payment-button-left text.price{
+    font-size: 45rpx;
+    color: #FD6666;
+}
+.payment-button .payment-button-left text.success{
+    font-size: 32rpx;
+    color: #3eb477;
+}
+.payment-button .payment-button-right{
+    width: 300rpx;
+    background-color: #3eb477;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 120rpx;
+    -webkit-appearance: none;
+    border-radius: 0;
+    border: none;
+}
+.payment-bottom{
+    width: 750rpx;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+    max-width: 500px;
+}
+.payment-bottom .bottom-circle{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    height: 120rpx;
+    line-height: 120rpx;
+    border-radius: 120rpx;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-bottom: 20rpx;
+    font-size: 34rpx;
+    animation: btnScale 6s cubic-bezier(.1,.2,.9,1) infinite;
+}
+@keyframes btnScale {
+    0% {
+        transform: scale(1)
+    }
+
+    4% {
+        transform: scale(1.15)
+    }
+
+    8% {
+        transform: scale(1)
+    }
+
+    12% {
+        transform: scale(1.15)
+    }
+
+    16% {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+.payment-bottom .bottom-fixed{
+    width: 100%;
+    display: flex;
+    height: 100rpx;
+    line-height: 100rpx;
+    color: #FFFFFF;
+    justify-content: center;
+    font-size: 34rpx;
+}
+.service-bottom{
+    width: 750rpx;
+    height: auto;
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 30rpx;
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+    font-size: 30rpx;
+    color: #999999;
+}
+.service-default{
+    width: 750rpx;
+    height: auto;
+    display: flex;
+    padding: 30rpx;
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+    font-size: 30rpx;
+    color: #999999;
+}
+.service-bottom text{
+    color: #0F80FF;
+}
+.service-default text{
+    color: #0F80FF;
+}
+.payment-choice{
+    background-color: #FFFFFF;
+    z-index: 999;
+    height: auto;
+    width: 750rpx;
+    max-width: 500px;
+    padding: 30rpx;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.payment-choice .title{
+    width: 100%;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    margin-bottom: 30rpx;
+}
+.payment-choice .title text{
+    width: 530rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-left: 80rpx;
+    float: left;
+    font-size: 35rpx;
+    color: #000000;
+}
+.payment-choice .title icon{
+    width: 80rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    float: right;
+    font-size: 40rpx;
+}
+.payment-choice .lists{
+    width: 100%;
+    height: auto;
+}
+.payment-choice .lists-items{
+    width: 100%;
+    height: 120rpx;
+    line-height: 120rpx;
+    margin-bottom: 30rpx;
+    border: 1rpx solid #E6E6E6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30rpx;
+    box-sizing: border-box;
+}
+.payment-choice .lists-items view{
+    display: flex;
+}
+.payment-choice .lists-items view icon{
+    font-size: 50rpx;
+    margin-right: 30rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+    align-items: center;
+}
+.payment-choice .lists-items view text{
+    font-size: 32rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+}
+.payment-choice .lists-items .right{
+    font-size: 30rpx;
+    width: 120rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+    text-align: right;
+    color: #999999;
+}
+.payment-form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.payment-form .item{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.payment-form .item .label{
+    display: flex;
+    width: 100%;
+    height: 50rpx;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20rpx;
+    font-size: 32rpx;
+}
+.payment-form .item .label .i{
+    color: #FD6666;
+    margin-right: 10rpx;
+}
+.payment-form .item .input{
+    display: flex;
+    width: 100%;
+    height: 100rpx;
+    background-color: #f8f9fb;
+    border: thin solid #EEEFF3;
+    padding: 0 30rpx;
+    box-sizing: border-box;
+    margin-bottom: 20rpx;
+    font-size: 30rpx;
+}
+.payment-form .item .textarea{
+    display: flex;
+    width: 100%;
+    height: 150rpx;
+    background-color: #f8f9fb;
+    border: thin solid #EEEFF3;
+    padding: 20rpx 30rpx;
+    box-sizing: border-box;
+    margin-bottom: 20rpx;
+    font-size: 30rpx;
+}
+.payment-form .item .describe{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20rpx;
+    font-size: 28rpx;
+    color: #999999;
+}
+.payment-form .button{
+    display: flex;
+    width: 100%;
+    height: 110rpx;
+    font-size: 36rpx;
+    background-color: #0F80FF;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rpx;
+}
+.payment-form .item .badge{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+.payment-form .item .badge>view{
+    height: 70rpx;
+    line-height: 70rpx;
+    border: 2rpx solid #999999;
+    color: #333333;
+    padding: 0 30rpx;
+    margin: 0 0 20rpx 0;
+    float: left;
+    border-radius: 5rpx;
+    display: flex;
+    font-size: 30rpx;
+}
+.payment-form .item .badge>view>icon{
+    height: 70rpx;
+    line-height: 70rpx;
+    font-size: 35rpx;
+    display: flex;
+    margin-right: 10rpx;
+}
+.payment-form .item .badge text{
+    height: 70rpx;
+    line-height: 70rpx;
+    border: 2rpx solid #999999;
+    color: #333333;
+    padding: 0 30rpx;
+    margin: 0 0 20rpx 0;
+    float: left;
+    border-radius: 5rpx;
+}
+.payment-form .item .badge text:last-child{
+    flex: 1;
+    margin-left: 20rpx;
+    text-align: center;
+    min-width: 300rpx;
+}
+.payment-form .item .badge .active{
+    border: 2rpx solid #0F80FF;
+    color: #0F80FF;
+}
+.payment-form .notice{
+    width: 100%;
+    float: left;
+    margin-top: 20rpx;
+    font-size: 30rpx;
+}
+.payment-form .notice .label{
+    width: 100%;
+    font-weight: 500;
+    display: flex;
+}
+
+
+.goods-copyright{
+    width: 750rpx;
+    max-width: 500px;
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: 28rpx;
+    color: #CCCCCC;
+    margin-bottom: 120rpx;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.goods-copyright-fixed{
+    width: 750rpx;
+    max-width: 500px;
+    height: 120rpx;
+    line-height: 120rpx;
+    font-size: 28rpx;
+    color: #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+.goods-copyright-fixed text{
+    color: #666666;
+    margin: 0 10rpx;
+}
+.goods-copyright text{
+    color: #666666;
+    margin: 0 10rpx;
+}
+
+.wechat-mp-pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100rpx 0;
+}
+.wechat-mp-pay .name{
+    font-size: 32rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+}
+.wechat-mp-pay .price{
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: 80rpx;
+    font-weight: 600;
+    color: #000000;
+}
+.wechat-mp-pay .company{
+    font-size: 80rpx;
+    font-weight: 700;
+    color: #000000;
+}
+.wechat-mp-pay .button{
+    width: 600rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: 32rpx;
+    border-radius: 10rpx;
+    background-color: #00c250;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50rpx;
+}
+.wechat-service{
+    display: flex;
+    position: fixed;
+    right: 30rpx;
+    bottom: 200rpx;
+    flex-direction: column;
+    opacity: 0.9;
+}
+.wechat-service icon{
+    width: 120rpx;
+    height: 120rpx;
+    font-size: 120rpx;
+    color: #18B860;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0 -5rpx 20rpx rgb(153,153,153,0.4);
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.wechat-service text{
+    width: 120rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 28rpx;
+    color: #333333;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: -15rpx;
+    box-shadow: 0 15rpx 15rpx rgb(153,153,153,0.4);
+}
